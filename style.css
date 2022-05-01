@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@200&family=Laila&family=Merriweather:ital@1&family=Montserrat:wght@100;200&family=Roboto:wght@300&family=Sacramento&family=Source+Sans+Pro:wght@200&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.container{
+    width: 100%;
+    height: 800px;
+    /* background-color: red; */
+    display: flex;
+}
+.col1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    padding: 15px;
+    background-color: rgb(53, 69, 77);
+}
+.col2{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(180, 209, 210);
+}
+.imageContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: rgb(228, 142, 29); */
+    width: 51%;
+    height: 30%;
+    /* padding: -30px; */
+    border-radius: 100%;
+    position: relative;
+    bottom: 84px;
+}
+.skills{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(113 110 116);
+    width: 100%;
+    border-radius: 10px;
+    height: 30%;
+    box-shadow: 0px -1px 24px #edf1ff;
+}
+h2{
+    font-weight: bolder;
+}
+.firstHeading{
+    margin-top: -41px;
+}
+.col2{
+    padding: 50px;
+    text-align: center;
+}
+.personalInfo,.projects{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    margin-top: 42px;
+    padding: 18px;
+    height: 250px;
+    /* border: 2px solid greenyellow; */
+    border-radius: 10px;
+    background-color: rgb(210 232 229);
+    box-shadow: 1px 0px 34px -8px black;
+
+}
+.detailSection{
+    font-family: 'Biryani';
+    margin-right: 1px;
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid red; */
+   
+}
+/* .detailSection>p{
+    color:rgb(193, 109, 109)
+} */
+.contactSection{
+    font-family: 'Biryani', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1px;
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+.projects{
+    /* align-items: center; */
+    position: relative;
+    justify-content: center;
+}
+.validPoints{
+    border: 2px sold rgb(203, 190, 190);
+    margin-left: 20px;
+    list-style: none;
+}
+.nothing{
+    display:inline;
+}
+.skillDiv{
+    margin-top: 4vh;
+    font-size: .9rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.thirdHeading{
+    margin-bottom: 20px;
+   text-shadow: 1px 2px 3px black;
+   letter-spacing: 2px;
+   text-decoration:solid;
+}
+.talent{
+    margin: 5px;
+}
+.social-enquire{
+    margin: 10px;
+    font-size: 36px;
+    /* background-color: black; */
+}
+#codeChef{
+    margin: left 8px;
+    margin-right:8px ;
+}
+#gfg{
+    margin-left: 8px;
+}
+.aboutProjects{
+    position: absolute;
+    top: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.para{
+    letter-spacing: 1px;
+    margin: 2px;
+}
+button{
+    border: 2px solid black;
+    margin: 3px;
+    width: 10%;
+    height: 20px;
+}
+.myImage{
+    max-width: 100%;
+    max-width: 100%;
+    border-radius: 100%;
+    /* object-fit: contain; */
+    /* background-size: cover; */
+}
+
